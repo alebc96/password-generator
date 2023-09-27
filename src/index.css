@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Monda', sans-serif;
+}
+
+.range{
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #121117;
+  outline: none;
+  border-radius: 20px;
+  height: 10px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+}
+  
+.range::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 17px;
+  height: 17px;
+  background-color: #A4FDAF;
+  border: none;
+  border-radius: 50%;
+}
+
+input[type=checkbox]{
+  width: 18px;
+  margin-right: 10px;
+  height: 18px;
+  border: 2px solid #A4FDAF;
+  background-color: #24232B;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
